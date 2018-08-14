@@ -1,30 +1,39 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE HTML >
 
 <HEAD>
     <TITLE>LoginPage</TITLE>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/loginservlet/styles/login-styles.css">
 
 </HEAD>
 
 <H1 ALIGN="CENTER">Logowanie</H1>
 
-<div class="loginform">
+<!--<div class="loginform">-->
+<div class="container" id="cont">
+    <FORM class="form-group" ACTION="http://localhost:8080/loginservlet/login" method="POST">
 
-    <FORM ACTION="http://localhost:8080/loginservlet/login" method = "POST"  >
+        <!--UserName:-->
+        <div class="form-group">
+            <label for="login" >Login:</label>
+            <input type="text" class="form-control" id="login" placeholder="Enter login" name="name">
+        </div>
+        <!--Password:-->
+        <div class="form-group">
 
-    UserName:
-    <INPUT  TYPE="TEXT" NAME="name"><BR><BR>
-    Password:
-    <INPUT TYPE="TEXT" NAME="pass"><BR><BR>
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass">
+        </div>
 
-<div align="center">
-    <INPUT  TYPE="SUBMIT" VALUE="LogIn"  >
+            <button id="buttonid" type="submit" class="btn btn-default">LogIn</button>
+
+
+    </FORM>
 </div>
-
-</FORM>
-
 </BODY>
-</div>
 
 </HTML>
