@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+		 version="4.0">
+
+	<welcome-file-list>
+		<welcome-file>welcome.html</welcome-file>
+	</welcome-file-list>
+
+	<!--<servlet>-->
+
+		<!--<servlet-name>s1</servlet-name>-->
+		<!--<servlet-class>loginServlet</servlet-class>-->
+	<!--</servlet>-->
+
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>s1</servlet-name>-->
+		<!--<url-pattern>/loginServlet</url-pattern>-->
+	<!--</servlet-mapping>-->
+
+	<!--<servlet>-->
+		<!--<servlet-name>s1</servlet-name>-->
+		<!--<servlet-class>main/java/loginServlet</servlet-class>-->
+	<!--</servlet>-->
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>s1</servlet-name>-->
+		<!--<url-pattern>/logedinnnn</url-pattern>-->
+	<!--</servlet-mapping>-->
+	<!--<servlet>-->
+		<!--<servlet-name>userInfo</servlet-name>-->
+		<!--<servlet-class>userInfoServlet</servlet-class>-->
+	<!--</servlet>-->
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>userInfo</servlet-name>-->
+		<!--<url-pattern>/info</url-pattern>-->
+	<!--</servlet-mapping>-->
+
+
+
+	<!--<servlet>-->
+		<!--<description></description>-->
+		<!--<display-name>UserInfo</display-name>-->
+		<!--<servlet-name>UserInfo</servlet-name>-->
+		<!--<servlet-class>userInfoServlet</servlet-class>-->
+	<!--</servlet>-->
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>UserInfo</servlet-name>-->
+		<!--<url-pattern>/userInfoServlet</url-pattern>-->
+	<!--</servlet-mapping>-->
+	<!--<servlet>-->
+		<!--<description></description>-->
+		<!--<display-name>Logout</display-name>-->
+		<!--<servlet-name>Logout</servlet-name>-->
+		<!--<servlet-class>logoutServlet</servlet-class>-->
+	<!--</servlet>-->
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>Logout</servlet-name>-->
+		<!--<url-pattern>/logoutServlet</url-pattern>-->
+	<!--</servlet-mapping>-->
+
+</web-app>
