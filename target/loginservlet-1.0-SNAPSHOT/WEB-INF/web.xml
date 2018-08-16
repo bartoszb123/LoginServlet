@@ -13,17 +13,17 @@
 	<!--<servlet>-->
 
 		<!--<servlet-name>s1</servlet-name>-->
-		<!--<servlet-class>loginServlet</servlet-class>-->
+		<!--<servlet-class>Servlet.loginServlet</servlet-class>-->
 	<!--</servlet>-->
 
 	<!--<servlet-mapping>-->
 		<!--<servlet-name>s1</servlet-name>-->
-		<!--<url-pattern>/loginServlet</url-pattern>-->
+		<!--<url-pattern>/Servlet.loginServlet</url-pattern>-->
 	<!--</servlet-mapping>-->
 
 	<!--<servlet>-->
 		<!--<servlet-name>s1</servlet-name>-->
-		<!--<servlet-class>main/java/loginServlet</servlet-class>-->
+		<!--<servlet-class>main/java/Servlet.loginServlet</servlet-class>-->
 	<!--</servlet>-->
 	<!--<servlet-mapping>-->
 		<!--<servlet-name>s1</servlet-name>-->
@@ -54,11 +54,11 @@
 		<!--<description></description>-->
 		<!--<display-name>Logout</display-name>-->
 		<!--<servlet-name>Logout</servlet-name>-->
-		<!--<servlet-class>logoutServlet</servlet-class>-->
+		<!--<servlet-class>Servlet.logoutServlet</servlet-class>-->
 	<!--</servlet>-->
 	<!--<servlet-mapping>-->
 		<!--<servlet-name>Logout</servlet-name>-->
-		<!--<url-pattern>/logoutServlet</url-pattern>-->
+		<!--<url-pattern>/Servlet.logoutServlet</url-pattern>-->
 	<!--</servlet-mapping>-->
 
 </web-app>

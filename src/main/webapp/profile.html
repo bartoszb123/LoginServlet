@@ -3,20 +3,34 @@
 <head>
     <title>profile</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/test2.js"></script>
 
 </head>
 <body>
 
-<h1>Your Profile</h1>
+<div clas="container" style="padding:15px;">
+    <h1>Your Profile</h1>
 
-<div class="dane"> USER INFO </div></body> </br></br>
 
-<FORM ACTION="http://localhost:8080/loginservlet/info" method = "GET"  >
-<INPUT  TYPE="SUBMIT" VALUE="Back"  >
-</FORM>
+    <div class="dane"> USER INFO</div>
+    </br></br>
+
+
+    <h5>Your Documents</h5>
+
+
+    <div id="doc">Your documents</div>
+
+
+    <a href='http://localhost:8080/loginservlet/info' class="btn btn-primary">Back</a>
+
+</div>
+<!--<FORM ACTION="http://localhost:8080/loginservlet/info" method = "GET"  >-->
+<!--<INPUT  TYPE="SUBMIT" VALUE="Back"  >-->
+<!--</FORM>-->
 
 </body>
 </html>

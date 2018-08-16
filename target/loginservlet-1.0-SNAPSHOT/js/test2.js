@@ -10,4 +10,15 @@ $(document).ready(function(){
               $(".dane").html("Hello "+ "<b>"+result.name+"</b>" + " on your profile");
    			}
    		});
+
+//   	$.get("http://localhost:8080/loginservlet/createDocument",function(result){
+//
+//   	 $(".doc").html("twoj documento "+ "<b>"+result.name);
+//    	alert("nazwa dokumentu: "+result.name);
+//
+//   	});
+
+
+
+
    		});

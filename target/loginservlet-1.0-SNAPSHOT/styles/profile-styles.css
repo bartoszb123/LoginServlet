@@ -1,0 +1,27 @@
+
+#cont{
+
+ //margin:auto;
+ background-color:#F5F5F5;
+ border:1px solid #DCDCDC;
+ border-radius: 4px;
+ padding:10px;
+ width:400px;
+
+
+ }
+
+#buttonid {
+background-color:#E6E6FA;
+     display: block;
+        width: 100%;
+       // padding: 14px 28px;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+}
+	
+#buttonid:hover {
+    background-color: #B0C4DE;
+    color: black;
+}
