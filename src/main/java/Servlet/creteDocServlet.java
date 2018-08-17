@@ -11,18 +11,18 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/createDocument")
+@WebServlet("/addDoc")
 public class creteDocServlet extends HttpServlet {
-
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
         if (req.getSession(false) != null) {
-
-            String alias = req.getParameter("alias");
-            String content = req.getParameter("content");
+//
+//            String name = req.getParameter("name");
+//            String content = req.getParameter("content");
+//            String alias = req.getParameter("alias");
 
             req.getRequestDispatcher("createDoc.html").forward(req, resp);
             //resp.sendRedirect("profile.html");
@@ -34,5 +34,12 @@ public class creteDocServlet extends HttpServlet {
     }
 
 
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+
+
+
+
+    }
 }

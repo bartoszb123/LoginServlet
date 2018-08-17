@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
    $.ajax({
    			url: 'http://localhost:8080/loginservlet/jsonServlet',
    			method: 'GET',
@@ -11,14 +12,30 @@ $(document).ready(function(){
    			}
    		});
 
-//   	$.get("http://localhost:8080/loginservlet/createDocument",function(result){
+//   	$.get("http://localhost:8080/loginservlet/jsonDoc",function(result){
 //
-//   	 $(".doc").html("twoj documento "+ "<b>"+result.name);
-//    	alert("nazwa dokumentu: "+result.name);
+//   	 $("#doc").html("twoje documenty "+ "<b>"+result.lista);
+//    	alert("nazwa dokumentu: "+result.lista);
 //
 //   	});
 
+ $.ajax({
+   			url: 'http://localhost:8080/loginservlet/jsonDoc',
+   			method: 'GET',
+            mimeType: 'application/json',
+   			success: function(data) {
 
+            var output="<ul>";
+            for (var i in data.arr)
+            {
+                output+="<li>"+data.arr[i]+ "</li>"  ;
+            }
+            output+="</ul>";
 
+            $('#doc').html(output);
+
+            }
+
+   		});
 
    		});
