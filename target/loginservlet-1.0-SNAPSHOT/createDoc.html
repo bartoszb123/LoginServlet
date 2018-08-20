@@ -8,14 +8,16 @@
 
 </head>
 <body>
+<h1 align="center">CREATE DOCUMENTS</h1></br>
+<div class="container>" style="margin:50px;">
+<form action="http://localhost:8080/loginservlet/addDoc" method="post">
 
-<form action="http://localhost:8080/loginservlet/profile" >
-
-    Document Name : <input type="text" name="name">
-    Document Alias :<input type="text" name="alias">
-    Document Content: <input type="text" name="content">
+    Document Name : <input class="form-control" placeholder="Enter name" type="text" name="name"></br>
+    Document Alias :<input class="form-control" placeholder="Enter Alias" type="text" name="alias"></br>
+    Document Content: <input class="form-control" placeholder="Enter Content"type="text" name="content"></br>
     <input type="submit" value="submit">
 
 </form>
+</div>
 </body>
 </html>

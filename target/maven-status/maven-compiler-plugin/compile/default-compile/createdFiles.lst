@@ -10,4 +10,5 @@ Servlet\creteDocServlet.class
 Servlet\profileServlet.class
 Servlet\logoutServlet.class
 Servlet\loginServlet.class
+Servlet\deleteDocServlet.class
 model\User.class

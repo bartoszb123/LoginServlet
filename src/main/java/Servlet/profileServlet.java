@@ -21,23 +21,12 @@ public class profileServlet extends HttpServlet {
         if (req.getSession(false) != null) {
 
 
-            String name = req.getParameter("name");
-            String content = req.getParameter("content");
-            String alias = req.getParameter("alias");
 
-            CrudDataBase crudDataBase = new CrudDataBase();
-            try {
-                crudDataBase.createdoc(new Document(name, content, alias));
 
                 req.getRequestDispatcher("profile.html").forward(req, resp);
 
-            } catch (SQLException e) {
-                e.printStackTrace();
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
 
-        }else
+        } else
 
         {
             resp.sendRedirect("login.html");
@@ -45,8 +34,6 @@ public class profileServlet extends HttpServlet {
 
 
     }
-
-
 
 
 }

@@ -34,6 +34,7 @@ public class jsonDocServlet extends HttpServlet {
         try {
             List<Document> allDoc = crudDataBase.findAllDoc();
             List<String> listNAmes= new ArrayList<String>();
+
             for (Document doc:allDoc) {
 
                 listNAmes.add(doc.getName());
