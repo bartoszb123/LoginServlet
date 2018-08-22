@@ -26,7 +26,7 @@ $(document).ready(function(){
             }
             output+="</ul>";
 
-              $('#doc').hide().html(output).fadeIn(1000);
+              $('#doc').hide().html(output).fadeIn(700);
             }
    		});
 

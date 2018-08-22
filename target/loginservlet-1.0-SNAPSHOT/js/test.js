@@ -7,7 +7,10 @@ $(document).ready(function(){
    			success: function(result) {
                 console.log(result);
                 console.log(JSON.stringify(result));
-              $(".dane").text("Username :"+result.name+ ", Password: "+ result.pass);
+
+              $(".dane").css("align","center");
+              $(".dane").html("Username :"+"<b>"+result.name+"</b>"+ ", Password: "+ "<b>"+result.pass+"</b>");
+
    			}
    		});
    		});

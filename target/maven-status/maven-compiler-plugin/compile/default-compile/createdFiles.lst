@@ -2,13 +2,17 @@ Repository\RepositoryDocument.class
 Service\ServiceDocument.class
 Service\CrudDataBase.class
 model\Document.class
+Servlet\DocumentsServletXSL$1.class
 Servlet\infoServlet.class
 Servlet\FindByServlet.class
+Exception\XslTransformerException.class
 Servlet\jsonDocServlet.class
 Servlet\jsonServlet.class
 Servlet\creteDocServlet.class
+Servlet\DocumentsServletXSL.class
 Servlet\profileServlet.class
 Servlet\logoutServlet.class
 Servlet\loginServlet.class
 Servlet\deleteDocServlet.class
+model\Customer.class
 model\User.class

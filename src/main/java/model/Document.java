@@ -2,19 +2,24 @@ package model;
 
 public class Document {
 
-    private int id;
+    private long id;
     private String content;
     private String name;
     private String alias;
 
     public Document( String name, String cont, String alias) {
-        //this.id = id;
         this.name = name;
         this.content = cont;
         this.alias = alias;
 
     }
+    public Document(long id,String name, String cont, String alias) {
+        this.id = id;
+        this.name = name;
+        this.content = cont;
+        this.alias = alias;
 
+    }
 
     public String getContent() {
         return content;

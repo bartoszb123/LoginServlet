@@ -1,4 +1,5 @@
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\jsonServlet.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Exception\XslTransformerException.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Repository\RepositoryDocument.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\FindByServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\jsonDocServlet.java
@@ -7,8 +8,10 @@ C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Service\ServiceDo
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\logoutServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Service\CrudDataBase.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\model\Document.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\DocumentsServletXSL.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\deleteDocServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\loginServlet.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\model\Customer.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\profileServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\infoServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\model\User.java

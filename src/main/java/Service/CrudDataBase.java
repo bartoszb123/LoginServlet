@@ -150,12 +150,12 @@ public class CrudDataBase {
 
         while (rs.next()) {
 
-            // id = rs.getInt ("id");
+            id = rs.getInt ("id");
             name = rs.getString("name");
             cont = rs.getString("content");
             alias_doc = rs.getString("alias");
 
-            listdoc.add(new Document(name, cont, alias_doc));
+            listdoc.add(new Document(id, name, cont, alias_doc));
 
         }
 
