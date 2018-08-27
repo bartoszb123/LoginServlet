@@ -16,6 +16,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
@@ -34,31 +35,49 @@ import java.util.List;
 public class DocumentsServletXSL extends HttpServlet {
 
     private Transformer transformer = null;
-    private String finalHtmlString = "";
+    private static String finalHtmlString = "";
 
+
+//    public DocumentsServletXSL(){
+//
+//        createXMLinMemory();
+//
+//    }
+
+
+    private org.w3c.dom.Document doc=null;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         // createDocumentsXML(req);
-            createXMLinMemory();
+        String xmLinMemory = createXMLinMemory();
+        try {
+            createDocumentsXML();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
 
         try {
             resp.setContentType("text/html");
             PrintWriter out = resp.getWriter();
-            out.write(finalHtmlString);
+            out.write(xmLinMemory);
             out.close();
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-            //resp.sendRedirect(resp.encodeRedirectURL("documentsTable"));
+        //resp.sendRedirect(resp.encodeRedirectURL("documentsTable"));
 
     }
 
 
     //Stworzenie XML za pomocą ORG.JDOM2
-    private void createDocumentsXML(HttpServletRequest request) throws SQLException, ClassNotFoundException, URISyntaxException {
+    private void createDocumentsXML() throws SQLException, ClassNotFoundException, URISyntaxException {
 
         Element root = new Element("documents");
         org.jdom2.Document doc = new org.jdom2.Document();
@@ -96,7 +115,8 @@ public class DocumentsServletXSL extends HttpServlet {
         }
 
     }
-// Wyplucie HTML z istniejącego juz XML/XSL
+
+    // Wyplucie HTML z istniejącego juz XML/XSL
     public void XmlTransformer() throws IllegalArgumentException, TransformerException {
 
         //XSL
@@ -155,16 +175,14 @@ public class DocumentsServletXSL extends HttpServlet {
         return doc;
     }
 
-
-    public void createXMLinMemory() {
+    public String createXMLinMemory() {
 
         try {
 
             CrudDataBase crudDataBase = new CrudDataBase();
             List<Document> docs = crudDataBase.findAllDoc();
 
-            DocumentBuilderFactory dbFactory =
-                    DocumentBuilderFactory.newInstance();
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             final org.w3c.dom.Document doc = dBuilder.newDocument();
 
@@ -209,12 +227,13 @@ public class DocumentsServletXSL extends HttpServlet {
             DOMSource xmlFile = new DOMSource(doc);
 
             StringWriter stringWriter = new StringWriter();
-           // StreamResult srhtml = new StreamResult(htmlFilePath);
+            // StreamResult srhtml = new StreamResult(htmlFilePath);
             StreamResult srhtml = new StreamResult();
             srhtml.setWriter(stringWriter);
 
             transFact.newTransformer(new StreamSource(xslFilePath)).
                     transform(xmlFile, srhtml);
+
             // srhtml -> przetransoformowany xml i xsl na html
             StringWriter writer = (StringWriter) srhtml.getWriter();
             StringBuffer sb = writer.getBuffer();
@@ -226,6 +245,14 @@ public class DocumentsServletXSL extends HttpServlet {
         }
 
 
+        return finalHtmlString;
+    }
+
+
+
+    public String getXMLstring(){
+
+        return createXMLinMemory();
     }
 
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/test3.js"></script>
+
+</head>
+<body>
+<h1 align="center">FIND DOCUMENTS</h1></br>
+<div class="box>" style="margin:50px;">
+    <form class="form-inline" action="http://localhost:8080/loginservlet/findby" method="POST">
+        <legend><b>Filter</b></legend>
+        <input class="form-control" placeholder="Search by NAME" type="text" name="name">
+        <input class="form-control" placeholder="Search by ID" type="text" name="id">
+        <input class="btn btn-primary" id="btnclick" type="submit" value="Search">
+        <input class="btn btn-primary" type="submit" formaction="info" formmethod="GET" value="GoBack">
+    </form>
+</div>
+<div style="margin-left:50px;margin-right:50px">
+<table class='table' >
+    <tr style='background-color:#E6E6FA'>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Content</th>
+        <th>Alias</th>
+    </tr>
+    <tr class="dataSearching" >
+
+        <!--<div class="dataSearching" align="center"></div>-->
+
+    </tr>
+</table>
+</div>
+    <script>
+
+
+    </script>
+</body>
+</html>

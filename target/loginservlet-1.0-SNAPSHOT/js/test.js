@@ -5,8 +5,8 @@ $(document).ready(function(){
    			method: 'GET',
             mimeType: 'application/json',
    			success: function(result) {
-                console.log(result);
-                console.log(JSON.stringify(result));
+//                console.log(result);
+//                console.log(JSON.stringify(result));
 
               $(".dane").css("align","center");
               $(".dane").html("Username :"+"<b>"+result.name+"</b>"+ ", Password: "+ "<b>"+result.pass+"</b>");

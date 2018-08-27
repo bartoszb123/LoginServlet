@@ -2,12 +2,16 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+
     <xsl:template match="/">
         <html>
             <body>
                 <h2>My Documents</h2>
-                <table border="1">
+                <!--<link rel="stylesheet" href="/loginservlet/styles/tableXSL-styles.css"/>-->
+                <table border="1" class="tableXSL">
                     <tr bgcolor="#9acd32">
+
+                        <th>nr</th>
                         <th>id</th>
                         <th>name</th>
                         <th>content</th>
@@ -28,25 +32,32 @@
                                 </xsl:choose>
                             </xsl:attribute>
 
-
-
-                            <TD><xsl:number/></TD>
-                            <td><xsl:value-of select="id"/></td>
-                            <td><xsl:value-of select="name"/></td>
-                            <td><xsl:value-of select="content"/></td>
-                            <td><xsl:value-of select="alias"/></td>
+                            <!--<TD><xsl:number/></TD>    -> Automatyczne zliczanie/dodanie nowej kolumny-->
+                            <TD>
+                                <xsl:number/>
+                            </TD>
+                            <td>
+                                <xsl:value-of select="id"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="name"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="content"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="alias"/>
+                            </td>
                         </tr>
                     </xsl:for-each>
                 </table>
 
                 <!--<h3>Dokumenty o aliasie 11:</h3>-->
-                       <!--<xsl:for-each select="alias[@alias=11]">-->
-                               <!--name: <xsl:value-of select="name"/> <br />-->
-                      <!--</xsl:for-each>-->
-                <hr />
-
-            <a class="button" href="info">GoBack</a>
-
+                <!--<xsl:for-each select="alias[@alias=11]">-->
+                <!--name: <xsl:value-of select="name"/> <br />-->
+                <!--</xsl:for-each>-->
+                <!--<hr/>-->
+                <a class="btn" href="info">GoBack</a>
             </body>
         </html>
     </xsl:template>

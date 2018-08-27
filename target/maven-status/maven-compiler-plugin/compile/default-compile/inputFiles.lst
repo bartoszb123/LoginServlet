@@ -7,10 +7,13 @@ C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\creteDocS
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Service\ServiceDocument.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\logoutServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Service\CrudDataBase.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\DocumentServletFinderXPATH.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\model\Document.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\DocumentsServletXSL.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\deleteDocServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\loginServlet.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\InterestingEvent.java
+C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\jsonHtml.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\model\Customer.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\profileServlet.java
 C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\java\Servlet\infoServlet.java
