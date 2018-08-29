@@ -1,41 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:#F6F6F6">
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+    <script type="text/javascript">
+     bkLib.onDomLoaded(function() {
+          var myNicEditor = new nicEditor();
+          myNicEditor.setPanel('myNicPanel');
+           myNicEditor.addInstance('myInstance1');
+     });
+
+    </script>
+    <!--<script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>-->
+    <!--<script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>-->
     <script type="text/javascript" src="js/test3.js"></script>
+    <script type="text/javascript" src="js/test4.js"></script>
+    <link rel="stylesheet" href="/loginservlet/styles/editor-styles.css">
 
 </head>
 <body>
-<h1 align="center">FIND DOCUMENTS</h1></br>
-<div class="box>" style="margin:50px;">
+<h1 align="center" style="background-color:#cdcde3;padding:20px;">FIND DOCUMENTS</h1></br>
+<!--<div class="box" style="margin:auto;align:center;">-->
+<div style="margin:auto;">
+    <!--<div class="box>" style="margin:50px;">-->
     <form class="form-inline" action="http://localhost:8080/loginservlet/findby" method="POST">
         <legend><b>Filter</b></legend>
-        <input class="form-control" placeholder="Search by NAME" type="text" name="name">
-        <input class="form-control" placeholder="Search by ID" type="text" name="id">
+        <input id="inputNAME" class="form-control" placeholder="Search by NAME" type="text" name="name">
+        <input id="inputID" class="form-control" placeholder="Search by ID" type="text" name="id">
         <input class="btn btn-primary" id="btnclick" type="submit" value="Search">
-        <input class="btn btn-primary" type="submit" formaction="info" formmethod="GET" value="GoBack">
+        <input class="btn btn-primary" type="submit" formaction="profile" formmethod="GET" value="All Documents">
     </form>
 </div>
-<div style="margin-left:50px;margin-right:50px">
-<table class='table' >
-    <tr style='background-color:#E6E6FA'>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Content</th>
-        <th>Alias</th>
-    </tr>
-    <tr class="dataSearching" >
+<br/><br/>
+<!--overflow-x:auto; // responsive table-->
+<div style="margin:auto;align:center;overflow-x:auto;" >
+    <table class='table' style="text-align:center;">
+        <!--<table class='table' style="text-align:center;width:1200px;">-->
+        <thead>
+        <tr style='background-color:#E6E6FA;text-align:center;'>
+            <th style="width:100px;">ID</th>
+            <th style="width:100px;">Name</th>
+            <th style="width:800px;">Content</th>
+            <th style="width:100px;">Alias</th>
+            <th style="width:100px;">Edit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--<td>&nbsp;</td>-->
+        <tr class="dataSearching">
+            <!--<td id='btnrow' style='display:none;'><button id='edit' class='btn btn-default'>edit</button></td>-->
+        </tr>
+        </tbody>
+    </table>
+    <br/>
 
-        <!--<div class="dataSearching" align="center"></div>-->
 
-    </tr>
-</table>
+    <div id="editor" style="display:none;margin:auto;">
+        <div id="myNicPanel" style="align:center;margin:auto;"></div>
+        <div id="myInstance1"
+             style="font-size: 12px;margin:auto; background-color: #f1f1f1; padding: 3px; border: 1px solid #000;height:auto;align:center;">
+        </div>
+        <br/>
+        <div style="margin:auto;width:100px;">
+            <button class="btn btn-primary" onclick="sendContent()" style="width:100px;" value="Save" >Save
+            </button>
+        </div>
+    </div>
+    <br/><br/>
+    <a href='http://localhost:8080/loginservlet/info' class="btn btn-primary">GoBack</a>
 </div>
-    <script>
 
-
-    </script>
 </body>
 </html>

@@ -272,5 +272,28 @@ public class CrudDataBase {
     }
 
 
+    public void updateContent(String id_edit,String name_edit, String content_edit, String alias_edit) throws ClassNotFoundException, SQLException {
+
+        String sql = ("UPDATE documents2 SET name='"+name_edit+"',content = '"+content_edit+"',alias='"+alias_edit+"' WHERE id ='" + id_edit + "'");
+
+        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+        final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
+        // static final String DB_URL = "jdbc:mysql://localhost:3306/mojabaza?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        final String USER = "postgres";
+        final String PASS = "admin";
+
+        Connection conn = null;
+        Statement stmt = null;
+
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        conn = DriverManager.getConnection(DB_URL, USER, PASS);
+        stmt = conn.createStatement();
+
+        stmt.executeQuery(sql);
+
+        stmt.close();
+        conn.close();
+
+    }
 }
 

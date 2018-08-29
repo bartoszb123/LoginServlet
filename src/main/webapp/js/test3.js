@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
-//function loadscript(){
-
-//alert("uruchomienie skryptu");
+var data_copy;
 
    $.ajax({
    			url: 'http://localhost:8080/loginservlet/jsonHTML',
@@ -10,48 +8,53 @@ $(document).ready(function(){
             mimeType: 'application/json',
    			success: function(data) {
 
-//             var output="<ul class='list-group'><li class='list-group-item active'>YOUR DOCUMENT</li></br>";
-//
-//            for (var i in data.result)
-//            {
-//                output+="<li class='list-group-item' id='li"+i+"'>"+data.result[i]+"<span style='margin:25px'></span></li></br>"  ;
-//
-//            }
-//            output+="</ul>";
-//
-//              $('.dataSearching').hide().html(output).fadeIn(700);
-//
-//            }
+              data_copy=data.result;
 
-//--------------------------------------------------------------------------------------
-// var output="<table class='table'><tr style='background-color:#E6E6FA'><th>ID</th><th>Name</th><th>Content</th><th>Alias</th></tr><tr style='background-color:#F3F4FA'>";
-            var output="";
-            for (var i in data.result)
-            {
-                output+="<td>"+data.result[i]+"</td>"
-            }
-
-//             output+="</tr>";
+              var output="";
+              for (var i in data.result)
+              {
+                output+="<td id='td"+i+"' contenteditable='false'>"+data.result[i]+"</td>"
+              }
+              output+="<td id='btnrow'><button id='edit' style='display:none;' class='btn btn-warning'></button></td>";
               $('tr.dataSearching').css({"margin-left":"50px","margin-right":"50px"});
-//              $('tr.dataSearching').hide().html(output).fadeIn(700);
-                 $('tr.dataSearching').hide().html(output).fadeIn(1000);
 
+              $('tr.dataSearching').hide().html(output).fadeIn(1000);
 
-$("tr").not(':first').on('mouseenter',function(){
+                $("#td2").css("overflow","scroll"); // SCROLL in CONTENT - X
+                $("#td2").addClass('td-wrapper-scroll-y'); // SCROLL in CONTENT - Y
+                $("#td2").css("text-align","left");
 
-$(this).addClass('alert alert-info');
+                         if(data.result.length!=0){
 
-}).on('mouseleave',function(){
+                                $("#edit").css("display","inline");
 
-$(this).removeClass('alert alert-info');
+                         }
+//                   $("td").not(":first").attr("contenteditable","true");
+                         $("#myInstance1").html(data.result[2]);
+
+                         $("#edit").on('click',function(){
+
+                                  $("#editor").slideToggle("slow",function(){
+
+                                   if ( $("td").not(":even").attr("contenteditable") == "false") {
+                                             $("td").not(":even").attr("contenteditable", "true");
+                                        } else {
+                                             $("td").not(":even").attr("contenteditable", "false");
+                                        }
+
+                                  });
+
+                         });
+
+            }// koniec success in Ajax
+
+   		}); // koniec Ajax
+
+//
+//   		$("tr").not(':first').on('mouseenter',function(){
+//        $(this).addClass('alert alert-info');
+//        }).on('mouseleave',function(){
+//        $(this).removeClass('alert alert-info');
+//        });
 
 });
-
-
-
-            }
-
-   		});
-
-});
-

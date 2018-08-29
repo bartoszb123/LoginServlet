@@ -238,7 +238,7 @@ public class DocumentsServletXSL extends HttpServlet {
             StringWriter writer = (StringWriter) srhtml.getWriter();
             StringBuffer sb = writer.getBuffer();
             finalHtmlString = sb.toString();
-
+//            finalHtmlString=finalHtmlString.replaceAll("\\<.*?\\>", "");
 
         } catch (Exception e) {
             e.printStackTrace();

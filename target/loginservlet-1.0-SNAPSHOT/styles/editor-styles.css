@@ -1,0 +1,42 @@
+body{
+padding:20px;
+margin:30px 30px 30px 30px;
+background-color:#FFFFFF;
+height:100%;
+}
+
+th{
+text-align:center;
+}
+
+#btnrow{
+
+border:1px solid #E6E6FA;
+}
+
+#edit{
+
+width:30px;
+height:30px;
+
+}
+
+table{
+
+table-layout:auto;
+border:1px solid #E6E6FA;
+//border-collapse: separate//collapse;
+
+}
+
+.td-wrapper-scroll-y {
+  display: block;
+  max-height: 250px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+td{
+border:1px solid #E6E6FA;
+
+}

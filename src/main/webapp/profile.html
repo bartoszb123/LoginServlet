@@ -1,33 +1,62 @@
 <!DOCTYPE HTML >
-<html>
+<html style="background-color:#F6F6F6">
 <head>
     <title>profile</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/loginservlet/styles/profile-styles.css">
     <script type="text/javascript" src="js/test2.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
+<!--<script>$(window).load(function() {-->
+		<!--// Animate loader off screen-->
+		<!--$(".se-pre-con").fadeOut("slow");;-->
+	<!--});</script>-->
 </head>
 <body>
+<div class="se-pre-con"></div>
+<div class="container">
 
-<div clas="container" style="padding:15px;">
+    <div class="box">
+        <h1>Your Profile</h1>
 
-  <div class="box" style="margin:0 auto;" align="center">
-    <h1>Your Profile</h1>
+        <div class="info"> USER INFO</div>
+        <br/><br/>
 
-    <div class="dane"> USER INFO</div>
-    </br></br>
-  </div>
-    <!--<h5>Your Documents :</h5>-->
+        <div id="doc"></div>
 
-    <div id="doc"></div>
+    </div>
+</div><br/><br/>
 
-</div>
+<div class="table-wrapper-scroll-y">
+<table class="table table-bordered table-striped">
 
-<div style="padding:15px;">
+    <thead>
+    <tr style='background-color:#E6E6FA;text-align:center;'>
+        <th style="width:50px;">ID</th>
+        <th style="width:100px;">Name</th>
+        <th style="width:600px;">Content</th>
+        <th style="width:100px;">Alias</th>
+        <th style="width:50px;background-color:#F2F2F2;">Delete</th>
+    </tr>
+    </thead>
 
-    <a href='http://localhost:8080/loginservlet/info'  class="btn btn-primary">Back</a>
+    <tbody class="data">
+
+
+    </tbody>
+
+</table>
+</div><br/><br/>
+
+<div>
+
+    <a href='http://localhost:8080/loginservlet/info' class="btn btn-primary">Back</a>
+    <a href='http://localhost:8080/loginservlet/addDoc' class="btn btn-primary">AddNew</a>
+    <a href='http://localhost:8080/loginservlet/findby' class="btn btn-primary">Search</a>
 
 </div>
 

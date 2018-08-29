@@ -33,13 +33,24 @@ public class jsonDocServlet extends HttpServlet {
         CrudDataBase crudDataBase = new CrudDataBase();
         try {
             List<Document> allDoc = crudDataBase.findAllDoc();
-            List<String> listNAmes= new ArrayList<String>();
+            List<String> listNAmes= new ArrayList<>();
+            List<String> listAll= new ArrayList<>();
 
             for (Document doc:allDoc) {
 
                 listNAmes.add(doc.getName());
             }
 //            JSONArray allDataArray = new JSONArray();
+            for (Document doc:allDoc) {
+                String strID = Long.toString(doc.getId());
+                listAll.add(strID);
+                listAll.add(doc.getName());
+                listAll.add(doc.getContent());
+                listAll.add(doc.getAlias());
+            }
+
+
+
             JSONObject jsonobj = new JSONObject();
 //            for (Document doc : allDoc) {
 //
@@ -50,8 +61,8 @@ public class jsonDocServlet extends HttpServlet {
 //            JSONObject root = new JSONObject();
 //            root.put("arr", allDataArray);
 //            String jsonString = root.toString();
-            String lista = jsonobj.put("arr", listNAmes).toString();
-
+//            String lista = jsonobj.put("arr", listNAmes).toString();  // names
+            String lista = jsonobj.put("arr", listAll).toString();    // all
             out.write(lista);
             out.flush();
 

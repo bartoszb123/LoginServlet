@@ -1,27 +1,87 @@
-
-#cont{
-
- //margin:auto;
- background-color:#F5F5F5;
- border:1px solid #DCDCDC;
- border-radius: 4px;
- padding:10px;
- width:400px;
-
-
- }
-
-#buttonid {
-background-color:#E6E6FA;
-     display: block;
-        width: 100%;
-       // padding: 14px 28px;
-        font-size: 14px;
-        cursor: pointer;
-        text-align: center;
+body{
+padding:20px;
+margin:30px 30px 30px 30px;
+background-color:#FFFFFF;
+height:100%;
 }
-	
-#buttonid:hover {
-    background-color: #B0C4DE;
-    color: black;
+
+.container{
+
+padding:15px;
+width:100%;
+//margin:0px 50px 0px 50px;
+margin:auto;
+background-color:#cdcde3;
+
+}
+
+table{
+
+margin:auto;
+width:100%;
+
+}
+
+.td-wrapper-scroll-y {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+.box{
+
+//vertical-align:middle;
+text-align:center;
+
+}
+
+.doc{
+
+//text-align:left;
+
+}
+
+th{
+text-align:center;
+vertical-align:middle;
+border:1px solid #E6E6FA;
+}
+
+#btnrow{
+
+text-align:center;
+//vertical-align:middle;
+padding:5px;
+border:1px solid #E6E6FA;
+}
+
+.btnremove{
+
+//width:25px;
+//height:25px;
+
+}
+
+td{
+
+text-align:center;
+vertical-align:middle;
+padding:5px;
+
+}
+
+
+//animacja ladowania strony
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("images/bbb.gif") center no-repeat #fff;
 }

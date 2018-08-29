@@ -2,80 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded71bc2-01d0-4548-8b18-59eefa055aa5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/documents.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/documents.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/createDoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createDoc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/test2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/test3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/test3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/documents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/documents.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exception/XslTransformerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exception/XslTransformerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/RepositoryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/RepositoryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/CrudDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/CrudDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/ServiceDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/DocumentsServletXSL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/DocumentsServletXSL$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/DocumentsServletXSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/DocumentsServletXSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/FindByServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/FindByServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/creteDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/creteDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/deleteDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/deleteDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/infoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/infoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/jsonDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/jsonDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/jsonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/jsonServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/logoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/logoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/profileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/profileServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Exception/XslTransformerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Exception/XslTransformerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Repository/RepositoryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Repository/RepositoryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Service/CrudDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Service/CrudDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Service/ServiceDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Service/ServiceDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DatabaseAccessServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DocumentsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DocumentsServletXSL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DocumentsServletXSL$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DocumentsServletXSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/DocumentsServletXSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/FindByAliasServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/FindByServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/FindByServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/creteDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/creteDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/deleteDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/deleteDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/infoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/infoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/jsonDocServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/jsonDocServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/jsonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/jsonServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/logoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/logoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/profileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/Servlet/profileServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Repository/RepositoryDocument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/Service/ServiceDocument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/classes/model/config/CrudDataBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-6.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/documentsXSL.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/documentsXSL5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/js/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/js/test3.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/js/test3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/documents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/documents.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/documents.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/documents.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/resources/documents5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/styles/userInfo-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/styles/userInfo-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/loginservlet-1.0-SNAPSHOT/userInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-08-16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-08-17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-08-20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-08-21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-08-22" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="966">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -100,17 +40,26 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="207">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <file leaf-file-name="tableXSL-styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/tableXSL-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="115">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,8 +67,8 @@
       <file leaf-file-name="test2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -127,8 +76,8 @@
       <file leaf-file-name="DocumentServletFinderXPATH.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5566">
-              <caret line="273" selection-start-line="273" selection-end-line="273" />
+            <state relative-caret-position="4797">
+              <caret line="237" column="45" selection-start-line="237" selection-start-column="45" selection-end-line="237" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,45 +85,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/login-styles.css">
+      <file leaf-file-name="profile-styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="2" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="424">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsonHtml.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java">
+      <file leaf-file-name="editor-styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/editor-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-309">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/find.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="319">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createDoc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/createDoc.html">
+      <file leaf-file-name="test4.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="92">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -196,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/welc.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/welcome.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/login-styles.css" />
         <option value="$PROJECT_DIR$/src/main/java/logoutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dokument.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Dokument.java" />
@@ -216,37 +172,41 @@
         <option value="$PROJECT_DIR$/src/main/java/Servlet/FindByAliasServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/FindByServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/creteDocServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/profileServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/deleteDocServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/profile.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/createDoc.html" />
         <option value="$PROJECT_DIR$/src/main/java/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/customers.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/CustomersServletXSL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Document.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/test2.js" />
         <option value="$PROJECT_DIR$/src/main/java/Exception/XslTransformerException.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/documents5.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/documentsXSL5.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/documentsXSL.html" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/DocumentsServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/userInfo.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/find.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/tableXSL-styles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/test.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/documents.xsl" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/bbbb.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/InterestingEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/test3.js" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/createDoc-styles.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/createDoc.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/userInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/find.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/test4.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/test3.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/editor-styles.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/profile.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/test2.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css" />
       </list>
     </option>
   </component>
@@ -273,7 +233,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-20" />
     <option name="y" value="-20" />
     <option name="width" value="1943" />
@@ -312,70 +272,7 @@
               <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginservlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,12 +289,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp" />
-      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\js" />
-      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\styles" />
-      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\WEB-INF\frontend" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exception" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -413,8 +306,12 @@
       <recent name="Servlet" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Exception" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\styles" />
+      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\images" />
+      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp" />
+      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\js" />
+      <recent name="C:\Users\Bartosz\eclipse-workspace3\loginservlet\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,9 +456,9 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07813674" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10593539" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32871974" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.12255773" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.042628776" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -571,7 +468,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.38010657" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.20603907" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.1851211" />
@@ -622,7 +519,7 @@
           <option name="timeStamp" value="239" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="427" />
+      <option name="time" value="439" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="MavenRunConfiguration">
@@ -635,38 +532,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/find.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.4/postgresql-42.2.4.jar!/org/postgresql/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/RepositoryDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/ServiceDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DatabaseAccessServlet.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -690,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exception/XslTransformerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -709,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3082">
-          <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -734,34 +585,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/creteDocServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/FindByServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/documents.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/documents.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -779,42 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/profileServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/deleteDocServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/bbbb.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7912">
@@ -836,93 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/InterestingEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/tableXSL-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/login-styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="2" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/createDoc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5566">
-          <caret line="273" selection-start-line="273" selection-end-line="273" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,28 +641,251 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test2.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="299">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/CrudDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="274" column="21" lean-forward="true" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/documents.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/documents.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/InterestingEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/profileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/FindByServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1199">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DocumentsServletXSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4488">
+          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/deleteDocServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/jsonDocServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/createDoc-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/creteDocServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/createDoc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/userInfo-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/tableXSL-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/find.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/DocumentServletFinderXPATH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4797">
+          <caret line="237" column="45" selection-start-line="237" selection-start-column="45" selection-end-line="237" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/editor-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/find.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/images/bbb.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/profile-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>

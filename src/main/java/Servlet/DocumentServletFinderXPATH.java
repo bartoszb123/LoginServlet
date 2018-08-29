@@ -29,6 +29,14 @@ import java.util.List;
 @WebServlet(name = "searching", urlPatterns = {"/findby", "/findbyID"})
 public class DocumentServletFinderXPATH extends HttpServlet {
 
+
+    private String nameParam = null;
+    private String idParam = null;
+    private String contentParam = null;
+    private List<String> documentByName = null;
+    private List<String> documentById = null;
+    private static InterestingEvent ie;
+
     public void setNameParam(String nameParam) {
         this.nameParam = nameParam;
     }
@@ -37,25 +45,18 @@ public class DocumentServletFinderXPATH extends HttpServlet {
         this.idParam = idParam;
     }
 
-
-    private String nameParam = null;
-    private String idParam = null;
-    private List<String> documentByName = null;
-    private List<String> documentById = null;
-    private static InterestingEvent ie;
+    public void setContentParam(String contentParam) {
+        this.contentParam = contentParam;
+    }
 
 
     public DocumentServletFinderXPATH(InterestingEvent event) {
 
         ie = event;
-        //  interestingEventHandlerIDValue = ie;
     }
 
-    public DocumentServletFinderXPATH(){
-
+    public DocumentServletFinderXPATH() {
     }
-
-
 
 
     public List<String> getDocumentByName() {
@@ -72,67 +73,12 @@ public class DocumentServletFinderXPATH extends HttpServlet {
 
         try {
 
-
             req.getRequestDispatcher("find.html").forward(req, resp);
 
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
-//        CrudDataBase crudDataBase = new CrudDataBase();
-//        List<Document> docs = null;
-//        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-//        DocumentBuilder dBuilder = null;
-//
-//
-//        try {
-//
-//            docs = crudDataBase.findAllDoc();
-//            dBuilder = dbFactory.newDocumentBuilder();
-//
-//        } catch (ClassNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } catch (ParserConfigurationException e) {
-//            e.printStackTrace();
-//        }
-//
-//        final org.w3c.dom.Document doc = dBuilder.newDocument();
-//
-////---------------------------------------------------------------------------------------------------
-//        // root element
-//        org.w3c.dom.Element documents = doc.createElement("documents");
-//
-//        for (final Document docc : docs) {
-//            //Child element
-//            final org.w3c.dom.Element child = doc.createElement("document");
-//
-//            org.w3c.dom.Element id = doc.createElement("id");
-//            String s = Long.toString(docc.getId());
-//            id.appendChild(doc.createTextNode(s));
-//            child.appendChild(id);
-//
-//            org.w3c.dom.Element name = doc.createElement("name");
-//            name.appendChild(doc.createTextNode(docc.getName()));
-//            child.appendChild(name);
-//
-//            org.w3c.dom.Element cont = doc.createElement("content");
-//            cont.appendChild(doc.createTextNode(docc.getContent()));
-//            child.appendChild(cont);
-//
-//            org.w3c.dom.Element alias = doc.createElement("alias");
-//            alias.appendChild(doc.createTextNode(docc.getAlias()));
-//            child.appendChild(alias);
-//
-//            documents.appendChild(child);
-//        }
-//        doc.appendChild(documents);
-
-        //----------------------------------------------------------------------------
-
-//        DOMSource domSource = new DOMSource(doc);
 
 
     }
@@ -169,7 +115,7 @@ public class DocumentServletFinderXPATH extends HttpServlet {
     private static List<String> getDocumentByName(org.w3c.dom.Document doc, XPath xpath, String name) {
         List<String> list = new ArrayList<String>();
         try {
-            XPathExpression expr =xpath.compile("//document[name/text()='"+name+"']//text()");
+            XPathExpression expr = xpath.compile("//document[name/text()='" + name + "']//text()");
 //                    xpath.compile("/documents/document[@name=" + name + "]/text()");
             NodeList nodes = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
             for (int i = 0; i < nodes.getLength(); i++)
@@ -185,10 +131,10 @@ public class DocumentServletFinderXPATH extends HttpServlet {
 //        Object result = null;
         List<String> list = new ArrayList<String>();
         try {
-            XPathExpression expr =xpath.compile("//documents/document[id/text()='"+id+"']/name/text()");
-            XPathExpression expr2 =xpath.compile("//document[id/text()='"+id+"']/name/text()");
-            XPathExpression expr3 =xpath.compile("//document[id/text()='"+id+"']/content/text()");
-            XPathExpression expr4 =xpath.compile("//document[id/text()='"+id+"']//text()");
+            XPathExpression expr = xpath.compile("//documents/document[id/text()='" + id + "']/name/text()");
+            XPathExpression expr2 = xpath.compile("//document[id/text()='" + id + "']/name/text()");
+            XPathExpression expr3 = xpath.compile("//document[id/text()='" + id + "']/content/text()");
+            XPathExpression expr4 = xpath.compile("//document[id/text()='" + id + "']//text()");
 //                    xpath.compile("//document/name//text()");
 //            result = expr3.evaluate(doc, XPathConstants.STRING);
             NodeList nodes = (NodeList) expr4.evaluate(doc, XPathConstants.NODESET);
@@ -216,6 +162,10 @@ public class DocumentServletFinderXPATH extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        String content_edit = null;
+        String id_edit = null;
+        String name_edit = null;
+        String alias_edit = null;
 
         try {
 
@@ -224,7 +174,7 @@ public class DocumentServletFinderXPATH extends HttpServlet {
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-             final org.w3c.dom.Document doc = dBuilder.newDocument();
+            final org.w3c.dom.Document doc = dBuilder.newDocument();
 
             // root element
             org.w3c.dom.Element documents = doc.createElement("documents");
@@ -254,8 +204,21 @@ public class DocumentServletFinderXPATH extends HttpServlet {
             }
             doc.appendChild(documents);
 
+
             setNameParam(req.getParameter("name"));
             setIdParam(req.getParameter("id"));
+
+            content_edit = req.getParameter("content_edit");
+            id_edit = req.getParameter("id_edit");
+            name_edit = req.getParameter("name_edit");
+            alias_edit = req.getParameter("alias_edit");
+
+            if (id_edit != null && content_edit != null && name_edit != null && alias_edit != null) {
+
+                crudDataBase.updateContent(id_edit, name_edit, content_edit, alias_edit);
+
+            }
+
 
             HttpSession session = req.getSession(false);
             session.setAttribute("name", nameParam);
@@ -266,17 +229,18 @@ public class DocumentServletFinderXPATH extends HttpServlet {
             if (!"".equals(nameParam)) {
                 documentByName = getDocumentByName(doc, xPath, nameParam);
 
-                ie.interestingEvent (documentByName);
+                ie.interestingEvent(documentByName);
 
 
             } else if (!"".equals(idParam)) {
-               documentById = getDocumentById(doc, xPath, idParam);
+                this.documentById = getDocumentById(doc, xPath, idParam);
 
-                ie.interestingEvent (documentById);
+                ie.interestingEvent(this.documentById);
 
 
             }
 
+//            doGet(req,resp);
             resp.sendRedirect("findby");
             // req.getRequestDispatcher("findby").forward(req,resp);
 
@@ -289,31 +253,9 @@ public class DocumentServletFinderXPATH extends HttpServlet {
             e.printStackTrace();
         }
 
-//    private static List<String> getDocumentByName(Document doc, XPath xpath, String name) {
-//        List<String> list = new ArrayList<String>();
-//        try {
-//            XPathExpression expr =
-//                    xpath.compile("/documents/document[@name=" + name + "]/name/text()");
-//            NodeList nodes = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-//            for (int i = 0; i < nodes.getLength(); i++)
-//                list.add(nodes.item(i).getNodeValue());
-//        } catch (XPathExpressionException e) {
-//            e.printStackTrace();
-//        }
-//        return list;
-//    }
 
     }
 
-//    interface InterestingEventHandlerIDValue {
-//        void interestingEvent();
-//    }
-
-//    private InterestingEventHandlerIDValue interestingEventHandlerIDValue;
-
-//    public void setInterestingEventHandlerIDValue(InterestingEventHandlerIDValue interestingEventHandlerIDValue) {
-//        this.interestingEventHandlerIDValue = interestingEventHandlerIDValue;
-//    }
 
 
 }

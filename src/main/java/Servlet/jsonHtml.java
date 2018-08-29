@@ -40,6 +40,7 @@ public class jsonHtml extends HttpServlet implements InterestingEvent {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
 
@@ -71,6 +72,7 @@ public class jsonHtml extends HttpServlet implements InterestingEvent {
 //        jsonobj.put("result", "dupaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadupaaaaaaaaaaa");
 
         out.write(jsonobj.toString());
+        listStr.clear();
         out.flush();
 
 
@@ -79,11 +81,7 @@ public class jsonHtml extends HttpServlet implements InterestingEvent {
     @Override
     public void interestingEvent(List<String> list) {
 
-//        setDocByID(documentServletFinderXPATH.getDocumentById());
-      //  listStr = list;
         setListStr(list);
-
-       // System.out.println("result:" + documentServletFinderXPATH.getDocumentById() );
 
 
     }
