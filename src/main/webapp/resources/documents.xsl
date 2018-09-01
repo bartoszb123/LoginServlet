@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+    <!--<xsl:output method="html" version="1.0"-->
+                <!--encoding="UTF-8" indent="yes"/>-->
 
     <xsl:template match="/">
         <html>
@@ -43,7 +44,7 @@
                                 <xsl:value-of select="name"/>
                             </td>
                             <td>
-                                <xsl:value-of select="content"/>
+                                <xsl:value-of select="content" disable-output-escaping="yes"/>
                             </td>
                             <td>
                                 <xsl:value-of select="alias"/>

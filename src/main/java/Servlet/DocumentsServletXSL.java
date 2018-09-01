@@ -213,6 +213,7 @@ public class DocumentsServletXSL extends HttpServlet {
                 documents.appendChild(child);
             }
             doc.appendChild(documents);
+            doc.normalize();
 
             //----------------------------------------------------------------------------
 
